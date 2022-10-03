@@ -1,0 +1,248 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	font-style: 15px;
+	color: #304041;
+	letter-spacing: 0.05em;
+	line-height: 1.22em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.header {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.26) 1.39%, rgba(255, 126, 54, 0.24) 44.44%, rgba(255, 126, 54, 0.24) 44.44%), url('../img/kiev.jpg')no-repeat top center / cover;
+	text-align: center;
+	padding: 90px 0 80px;
+	color: #fff;
+}
+
+.guide__city {
+	padding: 8px 17px;
+	color: #000;
+	background: #fff;
+	margin: 201px auto 0;
+	border-radius: 78px;
+	display: inline-block;
+	font-weight: 800;
+}
+
+.guide__title {
+	font-size: 60px;
+	letter-spacing: 0.145em;
+	line-height: 1.25em;
+	margin-top: 24px;
+}
+
+.guide__text {
+	margin-top: 24px;
+	font-size: 20px;
+	line-height: 1.20em;
+}
+
+.btn {
+	display: block;
+	font-weight: 800;
+	font-size: 16px;
+	padding: 18px 0;
+	border-radius: 119px;
+	transition: all 0.5s ease;
+}
+
+.guide__btn {
+	width: 247px;
+	margin: 24px auto 0;
+	background: #FF7E36;
+	color: #fff;
+}
+
+.guide__btn:hover {
+	background: #FF7021;
+}
+
+.guide__arrow {
+	background: url('../img/arrow-down.svg');
+	width: 18px;
+	height: 27px;
+	display: block;
+	margin: 215px auto 0;
+	transition: all 0.5s ease;
+	opacity: 0.5;
+}
+
+.guide__arrow:hover {
+	opacity: 1;
+}
+
+.strecken {
+	padding: 148px 0 0;
+}
+
+.strecker__title {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 100px;
+	line-height: 1.22em;
+}
+
+.way {
+	display: flex;
+	justify-content: space-between;
+	height: 649px;
+}
+
+.way__number {
+	text-transform: uppercase;
+	color: #789AA0;
+}
+
+.way__title {
+	margin-top: 20px;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 1.22em;
+}
+
+.way__inside {
+	line-height: 1.52em;
+}
+
+.way__inside:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.way__text {
+	margin-top: 40px;
+}
+
+.way__arrow {
+	background: url('../img/arrow-next.svg');
+	width: 68px;
+	height: 17px;
+	opacity: 0;
+	display: block;
+	margin-top: 71px;
+	transition: all 0.5s ease;
+}
+
+.way:hover .way__arrow{
+	opacity: 1;
+}
+
+.way__left {
+	background: #FFF6F1;
+	padding: 112px 78px 113px 73px;
+}
+
+.way__img img {
+	object-fit: fill;
+	height: 100%;
+	width: 476px;
+}
+
+.way__img {
+	border-radius: 0px 5px 5px 0px;
+	transition: all 0.5s ease;
+}
+
+.way__img:hover {
+	box-shadow: 0px 25px 70px rgba(4, 43, 55, 0.28);
+}
+
+.strecker__btn {
+	width: 332px;
+	text-align: center;
+	margin: 90px auto 0;
+	background: none;
+	border: #FF7E36 1px solid;
+	color: #FF7E36;
+}
+
+.strecker__btn:hover {
+	background: #FF7E36;
+	color: #fff;
+}
+
+.can {
+	padding-top: 146px;
+}
+
+.can__title {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 93px;
+	line-height: 1.22em;
+}
+
+.content {
+	background: url('../img/kiev3.jpg') no-repeat right top / 50%;
+	padding: 150px 0;
+}
+
+
+.content__item:before {
+	content:'';
+	display: block;
+	background: #4EB1B6;
+	border-radius: 23px;
+	height: 7px;
+	width: 65px;
+	margin-bottom: 15px;
+}
+
+.content__item {
+	font-size: 16px;
+	width: 407px;
+}
+
+.content__item:not(:last-child) {
+	margin-bottom: 57px;
+}
+
+.footer {
+	padding: 147px 0 165px;
+}
+
+.protect {
+	display: flex;
+}
+
+.protect__text {
+	color: #5C7677;
+}
+
+.protect__text:not(:last-child) {
+	margin-right: 60px;
+}
+
+
+
